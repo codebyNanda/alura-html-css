@@ -31,7 +31,6 @@ body {
   gap: 80px;
 }
 
-
 .cabecalho__menu__link {
   font-family: var(--fonte-secundaria);
   font-size: 1.5rem;
@@ -111,7 +110,6 @@ body {
 .apresentacao__imagem {
   width: 30%;
   border-radius: 15px;
-  /* height: 5%; */
 }
 
 .rodape {
@@ -131,6 +129,7 @@ body {
 
   .cabecalho__menu {
     justify-content: center;
+    gap: 40px;
   }
 
   .apresentacao {
@@ -141,5 +140,19 @@ body {
   .apresentacao__conteudo {
     width: auto;
   }
+ 
+  .apresentacao__imagem {
+    width: 50%;
+  } 
   
+}
+
+@media (max-width: 800px) {
+  .apresentacao__imagem {
+    width: 80%;
+  } 
+
+  .apresentacao__links__navegacao {
+    gap: 5px;
+  }
 }
